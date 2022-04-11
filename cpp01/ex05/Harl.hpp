@@ -1,0 +1,15 @@
+#ifndef CPP01_Harl_HPP
+#define CPP01_Harl_HPP
+#include <iostream>
+#include <string>
+
+class Harl {
+	void debug(void);
+	void info(void);
+	void warning(void);
+	void error(void);
+public:
+	void complain(std::string level);
+};
+
+#endif
